@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Cat and Dog</string>
+    <string name="login">Entrar</string>
+    <string name="register">Registar</string>
+    <string name="email">Endereço de Email</string>
+    <string name="PassWord">Palavra Passe</string>
+    <string name="Aviso">Conteudo inválido!</string>
+    <string name="Voltar">Voltar</string>
+    <string name="Somos">Quem Somos</string>
+    <string name="PerfilN">Nome do utilizador</string>
+    <string name="Morada">Região</string>
+    <string name="Contacto">Ex: 977876600</string>
+    <string name="Marcações">As minhas marcações</string>
+    <string name="quemsomos">O projeto CatandDog surgiu no âmbito de ajudar os animais em canis e gatis.\n\n
+Só no ano de 2018 estima-se que cerca de  36 mil animais foram abandonados.
+\n\n O nosso objetivo é melhorar a qualidade de vida dos nosso patudos dentro dos canis. através de doações como comida, produtos de higiene entre outros</string>
+    <string name="Contribuições">As minhas contribuições</string>
+    <string name="nome">Nome</string>
+    <string name="apelido">Apelido</string>
+    <string name="Numberphone">Apelido</string>
+
+
+
+
+
+
+
+
+
+</resources>
+
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="espaçoEntreCaixas">10dp</dimen>
+    <dimen name="margemTop">50dp</dimen>
+    <dimen name="margemButton">80dp</dimen>
+    <dimen name="margemStart">55dp</dimen>
+    <dimen name="margemRight">35dp</dimen>
+    <dimen name="margemLeft">35dp</dimen>
+    <dimen name="BoxWidthLogin">300dp</dimen>
+    <dimen name="BoxWidthregisto">135dp</dimen>
+</resources>

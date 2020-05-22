@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appcolor3">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        style="@style/TitleStyle"
+        android:layout_marginTop="@dimen/margemTop"/>
+
+    <EditText
+        android:text="@string/email"
+        style="@style/EditTextBox"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="@dimen/margemTop"
+        android:layout_width="@dimen/BoxWidthLogin"/>
+
+    <EditText
+        android:text="@string/PassWord"
+        style="@style/EditTextBox"
+        android:hint="@string/PassWord"
+        android:inputType="textPassword"
+        android:layout_margin="@dimen/espaçoEntreCaixas"
+        android:layout_width="@dimen/BoxWidthLogin"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Aviso"
+        android:textColor="@color/appcolor4"
+        android:textSize="15sp"
+        android:layout_marginStart="@dimen/margemStart"
+        android:layout_margin="@dimen/margemButton"/>
+
+    <Button
+        android:id="@+id/entrar_activityMain"
+        style="@style/ButtonStyle"
+        android:layout_marginTop="@dimen/margemButton"
+        android:text="@string/login"/>
+
+    <Button
+        android:id="@+id/registar_activityMain"
+        android:text="@string/register"
+        style="@style/ButtonStyle"
+        android:layout_marginTop="@dimen/espaçoEntreCaixas"/>
+
+</LinearLayout>
