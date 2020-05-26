@@ -3,24 +3,20 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/appcolor3">
+    android:background="@color/appcolor6">
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <TextView
+        <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/login"
         style="@style/TitleStyle"
         android:layout_marginTop="@dimen/margemTop"/>
 
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+            <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
 
-        <EditText
-            android:layout_marginTop="@dimen/margemTop"
+            <EditText android:layout_marginTop="@dimen/margemTop"
             android:layout_width="@dimen/BoxWidthregisto"
             android:layout_alignParentStart="true"
             android:layout_marginLeft="@dimen/margemLeft"
@@ -28,43 +24,90 @@
             android:text="@string/nome"
             style="@style/EditTextBox"/>
 
-
-        <EditText
+            <EditText
             android:layout_marginTop="@dimen/margemTop"
             android:layout_marginEnd="@dimen/margemRight"
             android:layout_alignParentEnd="true"
             android:text="@string/apelido"
             style="@style/EditTextBox"
             android:layout_width="@dimen/BoxWidthregisto"/>
-    </RelativeLayout>
+            </RelativeLayout>
 
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+            <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
 
-        <TextView
+            <TextView
             android:layout_width="@dimen/BoxWidthregisto"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_marginTop="@dimen/espaçoEntreCaixas"
             android:id="@+id/tv_date"
             android:layout_marginLeft="@dimen/margemLeft"
-            android:text="Select Data"
+            android:text="@string/Nascimento"
             style="@style/EditTextBox"
             android:textSize="20sp"/>
 
-        <EditText
-        android:layout_marginTop="@dimen/espaçoEntreCaixas"
-        android:layout_marginEnd="@dimen/margemRight"
-        android:layout_alignParentEnd="true"
-        android:text="@string/apelido"
-        style="@style/EditTextBox"
-        android:layout_width="@dimen/BoxWidthregisto"
-        android:inputType="phone"
-        android:digits="@s"
+            <EditText
+            android:layout_marginTop="@dimen/espaçoEntreCaixas"
+            android:layout_marginEnd="@dimen/margemRight"
+            android:layout_alignParentEnd="true"
+            android:text="@string/Numberphone"
+            style="@style/EditTextBox"
+            android:layout_width="@dimen/BoxWidthregisto"
+            android:inputType="phone"
+            android:digits="@string/Numberphone"/>
 
+            </RelativeLayout>
 
-    </RelativeLayout>
+            <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+            android:layout_marginTop="@dimen/espaçoEntreCaixas"
+            android:layout_width="@dimen/BoxWidthregisto"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="@dimen/margemLeft"
+            android:text="@string/email"
+            style="@style/EditTextBox"/>
+
+            <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="@dimen/BoxWidthregisto"
+            android:layout_height="52dp"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"
+            android:layout_marginTop="@dimen/espaçoEntreCaixas"
+            android:layout_marginEnd="@dimen/margemRight"
+            android:layout_alignParentEnd="true"
+            android:text="@string/Distrito"
+            style="@style/EditTextBox"/>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="55dp"/>
+
+            <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+             <Button
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="160dp"
+            android:text="@string/Voltar"
+            android:layout_centerHorizontal="true"
+            style="@style/ButtonStyle"/>
+
+            <Button
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="100dp"
+            android:text="@string/login"
+            android:layout_centerHorizontal="true"
+            style="@style/ButtonStyle"/>
+            </RelativeLayout>
 
 </LinearLayout>
 

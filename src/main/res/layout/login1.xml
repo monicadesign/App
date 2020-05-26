@@ -3,19 +3,16 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/appcolor3">
+    android:background="@color/appcolor6">
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <TextView
+        <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/login"
         style="@style/TitleStyle"
         android:layout_marginTop="@dimen/margemTop"/>
 
-    <EditText
+        <EditText
         android:text="@string/email"
         style="@style/EditTextBox"
         android:hint="@string/email"
@@ -23,7 +20,7 @@
         android:layout_marginTop="@dimen/margemTop"
         android:layout_width="@dimen/BoxWidthLogin"/>
 
-    <EditText
+        <EditText
         android:text="@string/PassWord"
         style="@style/EditTextBox"
         android:hint="@string/PassWord"
@@ -31,25 +28,30 @@
         android:layout_margin="@dimen/espaçoEntreCaixas"
         android:layout_width="@dimen/BoxWidthLogin"/>
 
-    <TextView
+        <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Aviso"
         android:textColor="@color/appcolor4"
-        android:textSize="15sp"
-        android:layout_marginStart="@dimen/margemStart"
-        android:layout_margin="@dimen/margemButton"/>
+        android:textSize="16sp"
+        android:layout_marginStart="@dimen/margemStart"/>
 
-    <Button
-        android:id="@+id/entrar_activityMain"
-        style="@style/ButtonStyle"
-        android:layout_marginTop="@dimen/margemButton"
-        android:text="@string/login"/>
+            <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
 
-    <Button
-        android:id="@+id/registar_activityMain"
-        android:text="@string/register"
-        style="@style/ButtonStyle"
-        android:layout_marginTop="@dimen/espaçoEntreCaixas"/>
+            <Button
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="160dp"
+            android:text="@string/Voltar"
+            android:layout_centerHorizontal="true"
+            style="@style/ButtonStyle"/>
 
+            <Button
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="100dp"
+            android:text="@string/login"
+            android:layout_centerHorizontal="true"
+            style="@style/ButtonStyle"/>
+            </RelativeLayout>
 </LinearLayout>

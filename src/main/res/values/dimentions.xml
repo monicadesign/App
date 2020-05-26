@@ -7,5 +7,5 @@
     <dimen name="margemRight">35dp</dimen>
     <dimen name="margemLeft">35dp</dimen>
     <dimen name="BoxWidthLogin">300dp</dimen>
-    <dimen name="BoxWidthregisto">135dp</dimen>
+    <dimen name="BoxWidthregisto">140dp</dimen>
 </resources>

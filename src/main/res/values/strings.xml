@@ -17,7 +17,11 @@ Só no ano de 2018 estima-se que cerca de  36 mil animais foram abandonados.
     <string name="Contribuições">As minhas contribuições</string>
     <string name="nome">Nome</string>
     <string name="apelido">Apelido</string>
-    <string name="Numberphone">Apelido</string>
+    <string name="Numberphone">Telemóvel</string>
+    <string name="Distrito">Distrito</string>
+    <string name="Nascimento">Data de nascimento</string>
+
+
 
 
 
