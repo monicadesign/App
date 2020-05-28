@@ -130,7 +130,7 @@
         <ImageView
             android:src="@mipmap/relogio"
             android:layout_gravity="start"
-            android:layout_marginStart="@dimen/ma"
+            android:layout_marginStart="44dp"
             style="@style/EstiloIcons"/>
 
         <TextView
@@ -150,7 +150,7 @@
             android:src="@mipmap/relogio"
             android:layout_gravity="start"
             style="@style/EstiloIcons"
-            android:layout_marginStart="@dimen/margemStart1"/>
+            android:layout_marginStart="45dp"/>
 
         <TextView
             android:text="@string/Contribuições"

@@ -15,15 +15,17 @@
         <item name="android:textSize">18sp</item>
         <item name="android:textAllCaps">false</item>
         <item name="android:textColor">@color/appcolor1</item>
+        <item name="android:layout_centerHorizontal">true</item>
+
     </style>
 
     <style name="TitleStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
-        <item name="android:textSize">32sp</item>
+        <item name="android:textSize">40sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/appcolor1</item>
-        <item name="android:layout_marginStart">55dp</item>
+        <item name="android:layout_marginStart">35dp</item>
     </style>
 
     <style name="EditTextBox">
@@ -77,7 +79,6 @@ S
         <item name="android:textSize">18sp</item>
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">@color/appcolor2</item>
-
 
     </style>
 
