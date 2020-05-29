@@ -70,17 +70,16 @@
             android:text="@string/email"
             style="@style/EditTextBox"/>
 
-            <Spinner
-            android:id="@+id/spinner1"
-            android:layout_width="@dimen/BoxWidthregisto"
-            android:layout_height="52dp"
-            android:background="@android:drawable/btn_dropdown"
-            android:spinnerMode="dropdown"
-            android:layout_marginTop="@dimen/espaçoEntreCaixas"
-            android:layout_marginLeft="@dimen/margemLeft"
-            android:layout_alignParentStart="true"
-            android:text="@string/Distrito"
-            style="@style/EditTextBox"/>
+           <Spinner
+               android:layout_marginTop="10dp"
+               android:layout_width="@dimen/BoxWidthregisto"
+               android:layout_alignParentStart="true"
+               android:layout_marginLeft="@dimen/margemLeft"
+               android:text="@string/Distrito"
+               style="@style/EditTextBox"
+               android:id="@+id/aSpinner"
+               android:entries="@array/Distritos"/>
+
             </RelativeLayout>
 
             <LinearLayout

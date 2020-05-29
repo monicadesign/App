@@ -79,7 +79,5 @@ S
         <item name="android:textSize">18sp</item>
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">@color/appcolor2</item>
-
     </style>
-
 </resources>
