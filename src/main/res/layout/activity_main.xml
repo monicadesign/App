@@ -15,7 +15,7 @@
         android:layout_gravity="center_horizontal"
         android:scaleType="centerInside"
         android:src="@mipmap/iconxxxhdpi"
-        android:layout_marginVertical="95dp"/>
+        android:layout_marginVertical="50dp"/>
 
         <RelativeLayout
         android:layout_width="fill_parent"
@@ -24,14 +24,15 @@
             <Button
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="190dp"
-            android:text="@string/Voltar"
-            style="@style/ButtonStyle" />
+            android:text="@string/login"
+            style="@style/ButtonStyle"
+            android:id="@+id/btn_go_to_login"/>
 
             <Button
-                android:id="@+id/entrar_activityMain"
+                android:id="@+id/btn_go_to_regist"
                 android:layout_alignParentBottom="true"
                 android:layout_marginBottom="130dp"
-                android:text="@string/login"
+                android:text="@string/register"
                 android:layout_centerHorizontal="true"
                 style="@style/ButtonStyle"/>
     </RelativeLayout>

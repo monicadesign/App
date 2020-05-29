@@ -93,16 +93,18 @@
             android:layout_height="fill_parent">
 
              <Button
+            android:id="@+id/btn_go_to_regist"
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="190dp"
-            android:text="@string/Voltar"
+            android:text="@string/register"
             android:layout_centerHorizontal="true"
             style="@style/ButtonStyle"/>
 
             <Button
+            android:id="@+id/btn_go_to_main"
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="130dp"
-            android:text="@string/login"
+            android:text="@string/Voltar"
             android:layout_centerHorizontal="true"
             style="@style/ButtonStyle"/>
             </RelativeLayout>
