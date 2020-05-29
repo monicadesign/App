@@ -17,10 +17,12 @@
         <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@mipmap/caoegatoxxhdpi"/>
+        android:src="@mipmap/caoegatoxhdpi"/>
 
         <TextView
+        android:id="@+id/go_to_sobre"
         android:text="@string/quemsomos"
-        style="@style/EstiloTextoSobre"/>
+        style="@style/EstiloTextoSobre"
+        android:textSize="16dp"/>
 
 </LinearLayout>

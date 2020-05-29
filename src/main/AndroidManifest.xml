@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LogInActivity"></activity>
+        <activity
+            android:name=".ui.login.CalendarReActivity"
+            android:label="@string/title_activity_calendar_re"></activity>
+        <activity android:name=".sobre_activity" />
+        <activity android:name=".ui.login.sobre_activity" />
+        <activity android:name=".LogInActivity" />
         <activity android:name=".Register" />
         <activity android:name=".MainActivity">
             <intent-filter>

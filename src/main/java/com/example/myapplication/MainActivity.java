@@ -13,7 +13,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
         this.setContentView(R.layout.activity_main);
 
         /*Declarações
@@ -30,12 +29,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
 
         if(v == findViewById(R.id.btn_go_to_regist) ){
-           Intent gotoregist = new Intent (this,Register.class);
-           this.startActivity(gotoregist);
+           Intent go_to_regist = new Intent (this,Register.class);
+           this.startActivity(go_to_regist);
         }
-        if (v == findViewById(R.id.btn_go_to_login)) {
-            Intent gotologin = new Intent (this,LogInActivity.class);
-            this.startActivity(gotologin);
+        if (v == findViewById(R.id.btn_go_to_login)){
+            this.startActivity(new Intent(this,LogInActivity.class));
         }
 
     }

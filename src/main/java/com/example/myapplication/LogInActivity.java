@@ -14,7 +14,7 @@ public class LogInActivity extends AppCompatActivity implements View.OnClickList
         super.onCreate(savedInstanceState);
         this.setContentView(R.layout.login1);
 
-        Button btn_go_to_login = findViewById(R.id.btn_go_to_login);
+        Button btn_go_to_login = findViewById(R.id.btn_go_to_sobre);
         Button btn_voltar = findViewById(R.id.btn_go_to_main);
 
         btn_go_to_login.setOnClickListener(this);
@@ -23,11 +23,11 @@ public class LogInActivity extends AppCompatActivity implements View.OnClickList
 
       @Override
       public void onClick (View v) {
+        if (v == findViewById(R.id.btn_go_to_sobre)){
+            this.startActivity(new Intent(this,sobre_activity.class));
+        }
         if (v == findViewById(R.id.btn_go_to_main)){
             this.startActivity(new Intent(this,MainActivity.class));
-        }
-        if (v == findViewById(R.id.btn_go_to_login)){
-            this.startActivity(new Intent(this,LogInActivity.class));
         }
 
     }
