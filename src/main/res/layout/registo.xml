@@ -23,7 +23,7 @@
 
             <EditText
             android:layout_marginTop="@dimen/margemTop"
-            android:layout_marginEnd="84dp"
+            android:layout_marginRight="@dimen/margemRight"
             android:layout_alignParentEnd="true"
             android:text="@string/apelido"
             style="@style/EditTextBox"
@@ -45,7 +45,7 @@
 
             <EditText
             android:layout_marginTop="@dimen/espaçoEntreCaixas"
-            android:layout_marginEnd="84dp"
+            android:layout_marginRight="@dimen/margemRight"
             android:layout_alignParentEnd="true"
             android:text="@string/Numberphone"
             style="@style/EditTextBox"
@@ -61,7 +61,7 @@
 
             <EditText
             android:layout_marginTop="@dimen/espaçoEntreCaixas"
-            android:layout_width="190dp"
+            android:layout_width="@dimen/BoxWidthregisto"
             android:layout_alignParentEnd="true"
             android:layout_marginRight="@dimen/margemRight"
             android:text="@string/email"
