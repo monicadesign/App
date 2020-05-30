@@ -28,18 +28,17 @@ public class Register extends AppCompatActivity implements View.OnClickListener 
     private Button btn_go_to_login;
     private Button btn_voltar;
 
-
     @Override //Botoes
         protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         this.setContentView(R.layout.registo);
 
+        ////////////////////////////////////
          btn_go_to_login = findViewById(R.id.btn_go_to_sobre);
          btn_voltar = findViewById(R.id.btn_go_to_main);
 
         btn_voltar.setOnClickListener(this);
         btn_go_to_login.setOnClickListener(this);
-
 
         //Area Spinner inicio
         Spinner spinner = findViewById(R.id.aSpinner);
@@ -48,9 +47,8 @@ public class Register extends AppCompatActivity implements View.OnClickListener 
         spinner.setAdapter(adapter);
         spinner.setOnItemSelectedListener(this);
 
-
         //Calendario inicio
-        mDisplayDate = (TextView) findViewById(R.id.tvDate);
+        mDisplayDate = findViewById(R.id.tvDate);
         mDisplayDate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -72,7 +70,10 @@ public class Register extends AppCompatActivity implements View.OnClickListener 
         mDateSetListener = new DatePickerDialog.OnDateSetListener() {
             @Override
             public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
+                month = month + 1;
                 Log.d(TAG, "onDateSet: date: " + dayOfMonth + "/" + month + "/" + year);
+                String date = month + "/" + dayOfMonth + "/" + year;
+                mDisplayDate.setText(date);
             }
         };
 

@@ -17,14 +17,13 @@
 
             <EditText android:layout_marginTop="@dimen/margemTop"
             android:layout_width="@dimen/BoxWidthregisto"
-            android:layout_alignParentStart="true"
             android:layout_marginLeft="@dimen/margemLeft"
             android:text="@string/nome"
             style="@style/EditTextBox"/>
 
             <EditText
             android:layout_marginTop="@dimen/margemTop"
-            android:layout_marginEnd="@dimen/margemRight"
+            android:layout_marginEnd="84dp"
             android:layout_alignParentEnd="true"
             android:text="@string/apelido"
             style="@style/EditTextBox"
@@ -40,13 +39,13 @@
             android:layout_alignParentStart="true"
             android:layout_marginTop="@dimen/espaçoEntreCaixas"
             android:layout_marginLeft="@dimen/margemLeft"
-            android:hint="Select Data"
+            android:hint="Data de Nascimento"
             style="@style/EditTextBox"
             android:id="@+id/tvDate"/>
 
             <EditText
             android:layout_marginTop="@dimen/espaçoEntreCaixas"
-            android:layout_marginEnd="@dimen/margemRight"
+            android:layout_marginEnd="84dp"
             android:layout_alignParentEnd="true"
             android:text="@string/Numberphone"
             style="@style/EditTextBox"
@@ -62,7 +61,7 @@
 
             <EditText
             android:layout_marginTop="@dimen/espaçoEntreCaixas"
-            android:layout_width="@dimen/BoxWidthregisto"
+            android:layout_width="190dp"
             android:layout_alignParentEnd="true"
             android:layout_marginRight="@dimen/margemRight"
             android:text="@string/email"
