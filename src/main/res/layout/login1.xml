@@ -9,11 +9,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/login"
-        style="@style/TitleStyle"
-        android:layout_marginTop="@dimen/margemTop"/>
+        style="@style/TitleStyle"/>
 
         <EditText
-        android:text="@string/email"
         style="@style/EditTextBox"
         android:hint="@string/email"
         android:inputType="textEmailAddress"

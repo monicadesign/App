@@ -11,8 +11,7 @@
         android:text="@string/Somos"
         style="@style/TitleStyle"
         android:textColor="@color/appcolor1"
-        android:textStyle="normal"
-        android:layout_marginTop="@dimen/margemTop"/>
+        android:textStyle="normal"/>
 
         <ImageView
         android:layout_width="wrap_content"

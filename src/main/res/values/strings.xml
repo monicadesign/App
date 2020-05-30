@@ -34,6 +34,7 @@ Só no ano de 2018 estima-se que cerca de  36 mil animais foram abandonados.
     <string name="login_failed">"Login failed"</string>
 
     <string-array name="Distritos">
+        <item>Distrito</item>
         <item>Aveiro</item>
         <item>Beja</item>
         <item>Braga</item>
