@@ -18,16 +18,18 @@
             <EditText android:layout_marginTop="@dimen/margemTop"
             android:layout_width="@dimen/BoxWidthregisto"
             android:layout_marginLeft="@dimen/margemLeft"
-            android:text="@string/nome"
-            style="@style/EditTextBox"/>
+            android:hint="@string/nome"
+            style="@style/EditTextBox"
+            android:id="@+id/NomeReg"/>
 
             <EditText
             android:layout_marginTop="@dimen/margemTop"
             android:layout_marginRight="@dimen/margemRight"
             android:layout_alignParentEnd="true"
-            android:text="@string/apelido"
+            android:hint="@string/apelido"
             style="@style/EditTextBox"
-            android:layout_width="@dimen/BoxWidthregisto"/>
+            android:layout_width="@dimen/BoxWidthregisto"
+            android:id="@+id/ApelidoReg"/>
             </RelativeLayout>
 
             <RelativeLayout
@@ -47,11 +49,12 @@
             android:layout_marginTop="@dimen/espaçoEntreCaixas"
             android:layout_marginRight="@dimen/margemRight"
             android:layout_alignParentEnd="true"
-            android:text="@string/Numberphone"
+            android:hint="@string/Numberphone"
             style="@style/EditTextBox"
             android:layout_width="@dimen/BoxWidthregisto"
             android:inputType="phone"
-            android:digits="@string/Numberphone"/>
+            android:digits="@string/Numberphone"
+            android:id="@+id/ContactoReg"/>
 
             </RelativeLayout>
 
@@ -64,15 +67,16 @@
             android:layout_width="@dimen/BoxWidthregisto"
             android:layout_alignParentEnd="true"
             android:layout_marginRight="@dimen/margemRight"
-            android:text="@string/email"
-            style="@style/EditTextBox"/>
+            android:hint="@string/email"
+            style="@style/EditTextBox"
+            android:id="@+id/EmailReg"/>
 
            <Spinner
                android:layout_marginTop="10dp"
                android:layout_width="@dimen/BoxWidthregisto"
                android:layout_alignParentStart="true"
                android:layout_marginLeft="@dimen/margemLeft"
-               android:text="@string/Distrito"
+               android:hint="@string/Distrito"
                style="@style/EditTextBox"
                android:id="@+id/aSpinner"
                android:entries="@array/Distritos"

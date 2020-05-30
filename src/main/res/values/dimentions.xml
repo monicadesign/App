@@ -4,8 +4,8 @@
     <dimen name="margemTop">50dp</dimen>
     <dimen name="margemButton">80dp</dimen>
     <dimen name="margemStart">55dp</dimen>
-    <dimen name="margemRight">35dp</dimen>
-    <dimen name="margemLeft">35dp</dimen>
+    <dimen name="margemRight">55dp</dimen>
+    <dimen name="margemLeft">55dp</dimen>
     <dimen name="BoxWidthLogin">300dp</dimen>
     <dimen name="BoxWidthregisto">140dp</dimen>
 </resources>
