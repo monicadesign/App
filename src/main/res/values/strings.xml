@@ -55,6 +55,12 @@ Só no ano de 2018 estima-se que cerca de  36 mil animais foram abandonados.
         <item>Viseu </item>
     </string-array>
 
+    <string name="Cão">"Cão"</string>
+    <string name="Onde_estamos">"Onde estamos?"</string>
+
+
+
+
 
 
 </resources>

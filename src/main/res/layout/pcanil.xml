@@ -12,9 +12,9 @@
         android:background="@color/appcolor1"
         android:layout_marginTop="-80dp">
 
-        <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+            <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
 
             <ImageView
             android:id="@+id/user_image"
@@ -44,7 +44,7 @@
                 android:background="@color/appcolor1"
                 android:gravity="center_vertical">
 
-                    <ImageView
+                    «<ImageView
                     android:src="@mipmap/person"
                     style="@style/EstiloIcons"/>
 
@@ -121,23 +121,23 @@
                     android:layout_marginStart="30dp"
                     android:layout_marginVertical="10dp"/>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:background="@color/appcolor1"
-        android:gravity="center_vertical"
-        android:layout_marginTop="@dimen/espaçoEntreCaixas">
+                    <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/appcolor1"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="@dimen/espaçoEntreCaixas">
 
-        <ImageView
-            android:src="@mipmap/relogio"
-            android:layout_gravity="start"
-            android:layout_marginStart="20dp"
-            style="@style/EstiloIcons"/>
+                    <ImageView
+                    android:src="@mipmap/relogio"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="20dp"
+                    style="@style/EstiloIcons"/>
 
-        <TextView
-            android:text="@string/ExemploMarcações"
-            style="@style/EstiloTextoCaixas"/>
+                    <TextView
+                    android:text="@string/ExemploMarcações"
+                      style="@style/EstiloTextoCaixas"/>
 
     </LinearLayout>
 
@@ -148,35 +148,41 @@
         android:background="@color/appcolor1"
         android:gravity="center_vertical">
 
-        <ImageView
-            android:src="@mipmap/relogio"
-            android:layout_gravity="start"
-            android:layout_marginStart="20dp"
-            style="@style/EstiloIcons"/>
+    <ImageView
+        android:src="@mipmap/relogio"
+        android:layout_gravity="start"
+        android:layout_marginStart="20dp"
+        style="@style/EstiloIcons"/>
 
-        <TextView
-            android:text="@string/ExemploMarcações1"
-            style="@style/EstiloTextoCaixas"/>
+    <TextView
+        android:text="@string/ExemploMarcações1"
+        style="@style/EstiloTextoCaixas"/>
 
     </LinearLayout>
 
-    <LinearLayout
+        <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_marginTop="@dimen/margemTop"/>
 
-    <TextView
+        <TextView
         android:text="@string/Contribuições"
         android:layout_gravity="left|start"
         style="@style/EstiloPerfilCliente"
         android:layout_marginStart="30dp"/>
 
-    <TextView
-    android:layout_marginTop="20dp"
-    android:text="@string/Contribuições"
-    android:layout_gravity="left|start"
-    style="@style/EstiloTextoCaixas"
-    android:layout_marginStart="30dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_orientation="horizontal"
+            android:background="@color/appcolor1"
+            android:gravity="center_vertical"/>
+
+        <ImageView
+           android:src="@mipmap/contribu"
+           android:layout_gravity="start"
+           android:layout_marginStart="20dp"
+           style="@style/EstiloIcons"/>
 
 </LinearLayout>
