@@ -1,188 +1,192 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/appcolor1"
     android:gravity="center"
-    android:background="@color/appcolor1">
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:layout_marginTop="-80dp"
         android:background="@color/appcolor1"
-        android:layout_marginTop="-80dp">
+        android:orientation="vertical">
 
-            <RelativeLayout
+        <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
             <ImageView
-            android:id="@+id/user_image"
-            android:layout_marginTop="@dimen/margemTop"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@mipmap/user"
-            android:layout_marginStart="20dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:background="@color/appcolor1"/>
+                android:id="@+id/user_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="@dimen/margemTop"
+                android:background="@color/appcolor1"
+                android:src="@mipmap/user" />
 
             <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margemTop"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
-            android:layout_toRightOf="@+id/user_image"
-            android:layout_toEndOf="@+id/user_image"
-            android:orientation="vertical">
-
-                <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:background="@color/appcolor1"
-                android:gravity="center_vertical">
-
-                    «<ImageView
-                    android:src="@mipmap/person"
-                    style="@style/EstiloIcons"/>
-
-                    <TextView
-                    android:text="@string/PerfilN"
-                    style="@style/EstiloTextoCaixas"/>
-
-                </LinearLayout>
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/margemTop"
+                android:layout_toEndOf="@+id/user_image"
+                android:layout_toRightOf="@+id/user_image"
+                android:orientation="vertical">
 
                 <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:background="@color/appcolor1"
-                android:gravity="center_vertical">
-
-                    <ImageView
-                    android:src="@mipmap/home"
-                    style="@style/EstiloIcons"/>
-
-                    <TextView
-                    android:text="@string/Morada"
-                    style="@style/EstiloTextoCaixas"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:background="@color/appcolor1"
-                android:gravity="center_vertical">
-
-                    <ImageView
-                    android:src="@mipmap/phone"
-                    style="@style/EstiloIcons"/>
-
-                    <TextView
-                    android:text="@string/Contacto"
-                    style="@style/EstiloTextoCaixas"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:background="@color/appcolor1"
-                android:gravity="center_vertical">
-
-                    <ImageView
-                    android:src="@mipmap/mail"
-                    style="@style/EstiloIcons"/>
-
-                    <TextView
-                    android:text="@string/email"
-                    style="@style/EstiloTextoCaixas"/>
-
-                </LinearLayout>
-            </LinearLayout>
-            </RelativeLayout>
-    </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="@dimen/margemTop"/>
-
-                <TextView
-                    android:text="@string/Marcações"
-                    android:layout_gravity="left|start"
-                    style="@style/EstiloPerfilCliente"
-                    android:layout_marginStart="30dp"
-                    android:layout_marginVertical="10dp"/>
-
-                    <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
                     android:background="@color/appcolor1"
                     android:gravity="center_vertical"
-                    android:layout_marginTop="@dimen/espaçoEntreCaixas">
+                    android:orientation="horizontal">
 
                     <ImageView
-                    android:src="@mipmap/relogio"
-                    android:layout_gravity="start"
-                    android:layout_marginStart="20dp"
-                    style="@style/EstiloIcons"/>
+                        style="@style/EstiloIcons"
+                        android:src="@mipmap/person" />
 
                     <TextView
-                    android:text="@string/ExemploMarcações"
-                      style="@style/EstiloTextoCaixas"/>
+                        style="@style/EstiloTextoCaixas"
+                        android:text="@string/PerfilN" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/appcolor1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        style="@style/EstiloIcons"
+                        android:src="@mipmap/home" />
+
+                    <TextView
+                        style="@style/EstiloTextoCaixas"
+                        android:text="@string/Morada" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/appcolor1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        style="@style/EstiloIcons"
+                        android:src="@mipmap/phone" />
+
+                    <TextView
+                        style="@style/EstiloTextoCaixas"
+                        android:text="@string/Contacto" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/appcolor1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        style="@style/EstiloIcons"
+                        android:src="@mipmap/mail" />
+
+                    <TextView
+                        style="@style/EstiloTextoCaixas"
+                        android:text="@string/email" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margemTop"
+        android:orientation="horizontal" />
+
+    <TextView
+        style="@style/EstiloPerfilCliente"
+        android:layout_gravity="left|start"
+        android:layout_marginVertical="10dp"
+        android:layout_marginStart="30dp"
+        android:text="@string/Marcações" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/espaçoEntreCaixas"
+        android:background="@color/appcolor1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            style="@style/EstiloIcons"
+            android:layout_gravity="start"
+            android:layout_marginStart="20dp"
+            android:src="@mipmap/relogio" />
+
+        <TextView
+            style="@style/EstiloTextoCaixas"
+            android:text="@string/ExemploMarcações" />
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:background="@color/appcolor1"
-        android:gravity="center_vertical">
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
 
-    <ImageView
-        android:src="@mipmap/relogio"
-        android:layout_gravity="start"
-        android:layout_marginStart="20dp"
-        style="@style/EstiloIcons"/>
+        <ImageView
+            style="@style/EstiloIcons"
+            android:layout_gravity="start"
+            android:layout_marginStart="20dp"
+            android:src="@mipmap/relogio" />
 
-    <TextView
-        android:text="@string/ExemploMarcações1"
-        style="@style/EstiloTextoCaixas"/>
+        <TextView
+            style="@style/EstiloTextoCaixas"
+            android:text="@string/ExemploMarcações1" />
 
     </LinearLayout>
 
-        <LinearLayout
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="@dimen/margemTop"/>
+        android:layout_marginTop="@dimen/margemTop"
+        android:orientation="horizontal" />
 
-        <TextView
-        android:text="@string/Contribuições"
-        android:layout_gravity="left|start"
+    <TextView
         style="@style/EstiloPerfilCliente"
-        android:layout_marginStart="30dp"/>
+        android:layout_gravity="left|start"
+        android:layout_marginStart="30dp"
+        android:text="@string/Contribuições" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_orientation="horizontal"
-            android:background="@color/appcolor1"
-            android:gravity="center_vertical"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_orientation="horizontal"
+        android:background="@color/appcolor1"
+        android:gravity="center_vertical" />
 
-        <ImageView
-           android:src="@mipmap/contribu"
-           android:layout_gravity="start"
-           android:layout_marginStart="20dp"
-           style="@style/EstiloIcons"/>
+    <ImageView
+        style="@style/EstiloIcons"
+        android:layout_gravity="start"
+        android:layout_marginStart="20dp"
+        android:src="@mipmap/contribu"/>
 
 </LinearLayout>

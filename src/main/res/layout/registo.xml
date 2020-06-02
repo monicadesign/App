@@ -1,109 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/appcolor6">
+    android:background="@color/appcolor6"
+    android:orientation="vertical">
 
-        <TextView
+    <TextView
+        style="@style/TitleStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/register"
-        style="@style/TitleStyle"/>
+        android:text="@string/register" />
 
-            <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
-            <EditText android:layout_marginTop="@dimen/margemTop"
+        <EditText
+            android:id="@+id/NomeReg"
+            style="@style/EditTextBox"
             android:layout_width="@dimen/BoxWidthregisto"
             android:layout_marginLeft="@dimen/margemLeft"
-            android:hint="@string/nome"
-            style="@style/EditTextBox"
-            android:id="@+id/NomeReg"/>
+            android:layout_marginTop="@dimen/margemTop"
+            android:hint="@string/nome" />
 
-            <EditText
+        <EditText
+            android:id="@+id/ApelidoReg"
+            style="@style/EditTextBox"
+            android:layout_width="@dimen/BoxWidthregisto"
+            android:layout_alignParentEnd="true"
             android:layout_marginTop="@dimen/margemTop"
             android:layout_marginRight="@dimen/margemRight"
-            android:layout_alignParentEnd="true"
-            android:hint="@string/apelido"
+            android:hint="@string/apelido" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvDate"
             style="@style/EditTextBox"
-            android:layout_width="@dimen/BoxWidthregisto"
-            android:id="@+id/ApelidoReg"/>
-            </RelativeLayout>
-
-            <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-            <TextView
             android:layout_width="@dimen/BoxWidthregisto"
             android:layout_alignParentStart="true"
-            android:layout_marginTop="@dimen/espaçoEntreCaixas"
             android:layout_marginLeft="@dimen/margemLeft"
-            android:hint="Data de Nascimento"
-            style="@style/EditTextBox"
-            android:id="@+id/tvDate"/>
-
-            <EditText
             android:layout_marginTop="@dimen/espaçoEntreCaixas"
-            android:layout_marginRight="@dimen/margemRight"
-            android:layout_alignParentEnd="true"
-            android:hint="@string/Numberphone"
+            android:hint="Data de Nascimento" />
+
+        <EditText
+            android:id="@+id/ContactoReg"
             style="@style/EditTextBox"
             android:layout_width="@dimen/BoxWidthregisto"
-            android:inputType="phone"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/espaçoEntreCaixas"
+            android:layout_marginRight="@dimen/margemRight"
             android:digits="@string/Numberphone"
-            android:id="@+id/ContactoReg"/>
+            android:hint="@string/Numberphone"
+            android:inputType="phone" />
 
-            </RelativeLayout>
+    </RelativeLayout>
 
-            <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
-            <EditText
-            android:layout_marginTop="@dimen/espaçoEntreCaixas"
+        <EditText
+            android:id="@+id/EmailReg"
+            style="@style/EditTextBox"
             android:layout_width="@dimen/BoxWidthregisto"
             android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/espaçoEntreCaixas"
             android:layout_marginRight="@dimen/margemRight"
-            android:hint="@string/email"
+            android:hint="@string/email" />
+
+        <Spinner
+            android:id="@+id/aSpinner"
             style="@style/EditTextBox"
-            android:id="@+id/EmailReg"/>
+            android:layout_width="@dimen/BoxWidthregisto"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="@dimen/margemLeft"
+            android:layout_marginTop="10dp"
+            android:entries="@array/Distritos"
+            android:hint="@string/Distrito"
+            android:textAlignment="center" />
 
-           <Spinner
-               android:layout_marginTop="10dp"
-               android:layout_width="@dimen/BoxWidthregisto"
-               android:layout_alignParentStart="true"
-               android:layout_marginLeft="@dimen/margemLeft"
-               android:hint="@string/Distrito"
-               style="@style/EditTextBox"
-               android:id="@+id/aSpinner"
-               android:entries="@array/Distritos"
-               android:textAlignment="center"/>
+    </RelativeLayout>
 
-            </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
 
-                <RelativeLayout
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent">
+        <Button
+            android:id="@+id/btn_go_to_sobre"
+            style="@style/ButtonStyle"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="190dp"
+            android:text="@string/register" />
 
-                <Button
-                android:id="@+id/btn_go_to_sobre"
-                android:layout_alignParentBottom="true"
-                android:layout_marginBottom="190dp"
-                android:text="@string/register"
-                android:layout_centerHorizontal="true"
-                style="@style/ButtonStyle"/>
-
-                <Button
-                android:id="@+id/btn_go_to_main"
-                android:layout_alignParentBottom="true"
-                android:layout_marginBottom="130dp"
-                android:text="@string/Voltar"
-                android:layout_centerHorizontal="true"
-                style="@style/ButtonStyle"/>
-                </RelativeLayout>
+        <Button
+            android:id="@+id/btn_go_to_main"
+            style="@style/ButtonStyle"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="130dp"
+            android:text="@string/Voltar" />
+    </RelativeLayout>
 
 </LinearLayout>
 

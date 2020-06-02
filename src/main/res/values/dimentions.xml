@@ -7,5 +7,7 @@
     <dimen name="margemRight">55dp</dimen>
     <dimen name="margemLeft">55dp</dimen>
     <dimen name="BoxWidthLogin">300dp</dimen>
+    <dimen name="BoxWidthregisto">140dp</dimen>
     <dimen name="iconsOnde">15dp</dimen>
+
 </resources>

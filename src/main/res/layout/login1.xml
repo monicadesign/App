@@ -1,57 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/appcolor6">
+    android:background="@color/appcolor6"
+    android:orientation="vertical">
 
-        <TextView
+    <TextView
+        style="@style/TitleStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/login"
-        style="@style/TitleStyle"/>
+        android:text="@string/login" />
 
-        <EditText
+    <EditText
         style="@style/EditTextBox"
-        android:hint="@string/email"
-        android:inputType="textEmailAddress"
+        android:layout_width="@dimen/BoxWidthLogin"
         android:layout_marginTop="@dimen/margemTop"
-        android:layout_width="@dimen/BoxWidthLogin"/>
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
 
-        <EditText
-        android:text="@string/PassWord"
+    <EditText
         style="@style/EditTextBox"
+        android:layout_width="@dimen/BoxWidthLogin"
+        android:layout_margin="@dimen/espaçoEntreCaixas"
         android:hint="@string/PassWord"
         android:inputType="textPassword"
-        android:layout_margin="@dimen/espaçoEntreCaixas"
-        android:layout_width="@dimen/BoxWidthLogin"/>
+        android:text="@string/PassWord" />
 
-        <TextView
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margemStart"
         android:text="@string/Aviso"
         android:textColor="@color/appcolor4"
-        android:textSize="16sp"
-        android:layout_marginStart="@dimen/margemStart"/>
+        android:textSize="16sp" />
 
-            <RelativeLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
 
-            <Button
+        <Button
             android:id="@+id/btn_go_to_sobre"
+            style="@style/ButtonStyle"
             android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
             android:layout_marginBottom="190dp"
-            android:text="@string/login"
-            android:layout_centerHorizontal="true"
-            style="@style/ButtonStyle"/>
+            android:text="@string/login" />
 
-            <Button
+        <Button
             android:id="@+id/btn_go_to_main"
+            style="@style/ButtonStyle"
             android:layout_alignParentBottom="true"
-            android:layout_marginBottom="130dp"
-            android:text="@string/Voltar"
             android:layout_centerHorizontal="true"
-            style="@style/ButtonStyle"/>
-            </RelativeLayout>
+            android:layout_marginBottom="130dp"
+            android:text="@string/Voltar" />
+    </RelativeLayout>
 </LinearLayout>
