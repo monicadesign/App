@@ -10,7 +10,6 @@
         android:layout_height="wrap_content"
         android:text="@string/Somos"
         style="@style/TitleStyle"
-        android:textColor="@color/appcolor1"
         android:textStyle="normal"/>
 
         <ImageView

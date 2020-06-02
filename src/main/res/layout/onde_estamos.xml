@@ -2,38 +2,239 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@color/appcolor6">
+    android:layout_height="match_parent"
+    android:layout_orientation="vertical"
+    android:background="@color/appcolor1">
 
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/appcolor1">
 
-        <TextView
-        android:text="@string/Onde_estamos"
-        style="@style/TitleStyle"
-        android:textStyle="normal"
-        android:textColor="@color/appcolor2"
-        android:layout_marginTop="@dimen/margemTop"
-        android:layout_marginEnd="150dp"
-        android:layout_alignParentStart="true"/>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/appcolor1"
+        android:gravity="center_vertical">
 
         <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:background="@color/appcolor6"/>
+            android:src="@mipmap/pata"
+            style="@style/EstiloIcons"/>
 
-        <RelativeLayout
-            android:layout_width="wrap_content"
+        <TextView
+            android:text="@string/Exemplo_canil"
+            style="@style/EstiloTextoCaixas"/>
+
+        </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/appcolor4"/>
+            android:orientation="horizontal"
+            android:background="@color/appcolor1"
+            android:gravity="center_vertical">
 
             <ImageView
+            android:src="@mipmap/local"
+            style="@style/EstiloIcons"/>
+            
+            <TextView
+            android:text="@string/Rua"
+            style="@style/EstiloTextoCaixas"/>
+            </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/appcolor1"
+            android:gravity="center_vertical">
+
+            <ImageView
+            android:src="@mipmap/phone"
+            style="@style/EstiloIcons"/>
+
+            <TextView
+            android:text="@string/Telemovel"
+            style="@style/EstiloTextoCaixas"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/calendarb"
+                    android:layout_marginLeft="200dp"/>
+            </LinearLayout>
+     </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/appcolor1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/margemTop"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/appcolor1"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:src="@mipmap/pata"
+                style="@style/EstiloIcons"/>
+
+            <TextView
+                android:text="@string/Exemplo_canil"
+                style="@style/EstiloTextoCaixas"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/appcolor1"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:src="@mipmap/local"
+                style="@style/EstiloIcons"/>
+
+            <TextView
+                android:text="@string/Rua"
+                style="@style/EstiloTextoCaixas"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/appcolor1"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:src="@mipmap/phone"
+                style="@style/EstiloIcons"/>
+
+            <TextView
+                android:text="@string/Telemovel"
+                style="@style/EstiloTextoCaixas"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/calendarb"
+                        android:layout_marginLeft="200dp"/>
+                </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/appcolor1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/appcolor2"
+            android:gravity="center_vertical"
+            android:layout_marginTop="@dimen/margemTop">
+
+            <ImageView
+                android:src="@mipmap/poww"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/iconsOnde"/>
+
+            <TextView
+                android:text="@string/Exemplo_canil"
+                style="@style/EstiloTextoCaixas"
+                android:background="@color/appcolor2"
+                android:textColor="@color/appcolor1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/appcolor2"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:src="@mipmap/locaw"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="@dimen/iconsOnde"/>
+
+            <TextView
+                android:text="@string/Rua"
+                style="@style/EstiloTextoCaixas"
+                android:background="@color/appcolor2"
+                android:textColor="@color/appcolor1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/appcolor2"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:src="@mipmap/phonew"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="@dimen/iconsOnde"/>
+
+            <TextView
+                android:text="@string/Telemovel"
+                style="@style/EstiloTextoCaixas"
+                android:textColor="@color/appcolor1"
+                android:background="@color/appcolor2"/>
+
+                <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                    <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/calendarw"
+                    android:layout_marginLeft="200dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
 
 
+
+
+
+
+
+
+
+
+
+
+    
 
 
 
