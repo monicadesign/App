@@ -121,14 +121,10 @@ public class Register extends AppCompatActivity implements View.OnClickListener 
     @Override //spinner quando se carrega
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
         String text = parent.getItemAtPosition(position).toString();
-        Toast.makeText(parent.getContext(),text, Toast.LENGTH_SHORT).show();
-        if (position == 0) {
-            Toast.makeText(getApplicationContext(),"Este é o item nº0",Toast.LENGTH_LONG).show();
+        if (position == 0)
             ((TextView)parent.getChildAt(0)).setTextColor(getColor(R.color.appcolor3));
         }
 
-        parent.getChildAt(0).setFocusable(false);
-    }
 
     @Override
     public void onNothingSelected(AdapterView<?> parent) {
