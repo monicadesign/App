@@ -63,6 +63,10 @@ Só no ano de 2018 estima-se que cerca de  36 mil animais foram abandonados.
     <string name="Exemplo_canil2">ALAAR:Associação Limiana dos Amigos dos Animais de Rua </string>
     <string name="Algo_correu_mal">Parece que algo falhou. Por favor tente novamente</string>
     <string name="Correu_bem">Agendamento feito som sucesso. Obrigado pela sua colaboração!</string>
+    <string name="Dias_li">Dias livres</string>
+    <string name="Dias_oc">Dias ocupados</string>
+
+
 
 
 
