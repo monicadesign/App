@@ -5,38 +5,39 @@
     android:gravity="center"
     android:background="@color/appcolor1">
 
-    <LinearLayout
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="380dp"
+        android:src="@mipmap/clock"
+        android:layout_marginTop="120dp"/>
+
+        <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/appcolor1"
-        android:gravity="center_vertical"
-        android:orientation="horizontal"
-        android:layout_marginTop="90">
+        android:layout_marginTop="110dp"
+        android:gravity="center">
 
         <ImageView
-            style="@style/EstiloIcons"
             android:src="@mipmap/prev"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="left"/>
+            android:layout_gravity="left"
+            android:layout_marginRight="40dp"/>
 
         <ImageView
-            style="@style/EstiloTextoCaixas"
-            android:src="@mipmap/circle"
-            android:layout_height="30dp"
-            android:layout_width="60dp"
-            android:layout_gravity="center"/>
+            android:src="@mipmap/circulos"
+            android:layout_gravity="center"
+            android:layout_height="20dp"
+            android:layout_width="wrap_content"/>
 
-        <LinearLayout
+        <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@mipmap/next"
-                android:layout_gravity="right"/>
+            android:layout_height="wrap_content"
+            android:src="@mipmap/next"
+            android:layout_marginLeft="40dp"/>
 
         </LinearLayout>
 
 </LinearLayout>
+
