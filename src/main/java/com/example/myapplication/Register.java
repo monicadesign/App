@@ -107,12 +107,14 @@ public class Register extends AppCompatActivity implements View.OnClickListener 
             this.startActivity( new Intent(this,MainActivity.class));
         }
         if (view_clicada == findViewById(R.id.btn_go_to_sobre)){
-            //this.startActivity(new Intent(this,LogInActivity.class));
-            clienteCriado = new Cliente(caixaNomeEscrito.getText().toString(),
+            this.startActivity(new Intent(this,LogInActivity.class));
+            //novo cliente
+            /*clienteCriado = new Cliente(caixaNomeEscrito.getText().toString(),
                                         caixaEmailEscrito.getText().toString(),
                                         123456789);
             clienteCriado.setDataDeNascimento(date);
             Log.i("CLIENTE", "O cliente é " + clienteCriado.getNome() + clienteCriado.getEmail() + clienteCriado.getContacto() + "       " + clienteCriado.getDataDeNascimento());
+        */
         }
     }
 
