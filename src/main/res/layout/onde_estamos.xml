@@ -32,7 +32,7 @@
                 android:src="@mipmap/pata" />
 
             <TextView
-                style="@style/EstiloTextoCaixas"
+                style="@style/TextoCaixas"
                 android:text="@string/Exemplo_canil"/>
 
         </LinearLayout>
@@ -49,7 +49,7 @@
                 android:src="@mipmap/local" />
 
             <TextView
-                style="@style/EstiloTextoCaixas"
+                style="@style/TextoCaixas"
                 android:text="@string/Rua" />
         </LinearLayout>
 
@@ -65,7 +65,7 @@
                 android:src="@mipmap/phone" />
 
             <TextView
-                style="@style/EstiloTextoCaixas"
+                style="@style/TextoCaixas"
                 android:text="@string/Telemovel" />
 
             <LinearLayout
@@ -101,7 +101,7 @@
                     android:src="@mipmap/pata" />
 
                 <TextView
-                    style="@style/EstiloTextoCaixas"
+                    style="@style/TextoCaixas"
                     android:text="@string/Exemplo_canil" />
 
             </LinearLayout>
@@ -118,7 +118,7 @@
                     android:src="@mipmap/local" />
 
                 <TextView
-                    style="@style/EstiloTextoCaixas"
+                    style="@style/TextoCaixas"
                     android:text="@string/Rua" />
             </LinearLayout>
 
@@ -134,7 +134,7 @@
                     android:src="@mipmap/phone" />
 
                 <TextView
-                    style="@style/EstiloTextoCaixas"
+                    style="@style/TextoCaixas"
                     android:text="@string/Telemovel" />
 
                 <LinearLayout
@@ -174,7 +174,7 @@
                     android:src="@mipmap/poww" />
 
                 <TextView
-                    style="@style/EstiloTextoCaixas"
+                    style="@style/TextoCaixas"
                     android:background="@color/appcolor2"
                     android:text="@string/Exemplo_canil"
                     android:textColor="@color/appcolor1" />
@@ -195,7 +195,7 @@
                     android:src="@mipmap/locaw" />
 
                 <TextView
-                    style="@style/EstiloTextoCaixas"
+                    style="@style/TextoCaixas"
                     android:background="@color/appcolor2"
                     android:text="@string/Rua"
                     android:textColor="@color/appcolor1" />
@@ -215,7 +215,7 @@
                     android:src="@mipmap/phonew" />
 
                 <TextView
-                    style="@style/EstiloTextoCaixas"
+                    style="@style/TextoCaixas"
                     android:background="@color/appcolor2"
                     android:text="@string/Telemovel"
                     android:textColor="@color/appcolor1" />

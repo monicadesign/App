@@ -20,7 +20,7 @@
         <TextView
         android:id="@+id/go_to_sobre"
         android:text="@string/quemsomos"
-        style="@style/EstiloTextoSobre"
+        style="@style/TextoSobre"
         android:textSize="16dp"/>
 
 </LinearLayout>

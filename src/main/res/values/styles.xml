@@ -42,7 +42,7 @@
 
     </style>
 
-        <style name="EstiloTextoCaixas">
+        <style name="TextoCaixas">
             <item name="android:layout_width">wrap_content</item>
             <item name="android:layout_height">wrap_content</item>
             <item name="android:textSize">15sp</item>
@@ -63,7 +63,7 @@
 
     </style>
 
-    <style name="EstiloTextoSobre">
+    <style name="TextoSobre">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">19sp</item>
@@ -75,11 +75,23 @@
 
     </style>
 S
-    <style name="EstiloPerfilCliente">
+    <style name="PerfilCliente">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">18sp</item>
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">@color/appcolor2</item>
     </style>
+
+    <style name="Marcacao">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/appcolor5</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginLeft">93dp</item>
+        <item name="android:layout_marginRight">93dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textSize">17dp</item>
+    </style>
+
 </resources>
